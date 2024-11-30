@@ -15,9 +15,12 @@ Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu 
 
 Multilingue         : Choisissez la langue du jeu (Français ou Anglais) dès le lancement.
     Gestion des joueurs : Vous pouvez jouer avec 2 à 4 joueurs. Les joueurs entrent leurs noms au début de la partie.
-    Cartes spéciales    : Les cartes "Passer", "Inverser", "+2", "+4", et "Joker" sont présentes et affectent le déroulement du jeu.
-    Vérification de victoire : Le jeu se termine lorsqu'un joueur n'a plus de cartes dans sa main.
-    Règle de "Uno"      : Le joueur doit dire "Uno" lorsqu'il lui reste une seule carte, sinon il doit piocher deux cartes supplémentaires. 
+    
+   Cartes spéciales    : Les cartes "Passer", "Inverser", "+2", "+4", et "Joker" sont présentes et affectent le déroulement du jeu.
+    
+   Vérification de victoire : Le jeu se termine lorsqu'un joueur n'a plus de cartes dans sa main.
+    
+   Règle de "Uno"      : Le joueur doit dire "Uno" lorsqu'il lui reste une seule carte, sinon il doit piocher deux cartes supplémentaires. 
     (Les règles du jeu proprement dites sont accessibles depuis le menu du Jeu)
 
 ## Prérequis
