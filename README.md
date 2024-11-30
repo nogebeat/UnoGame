@@ -7,7 +7,7 @@ Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu 
 ## Pratiques de code
 
  1 - Le code se limite aux notions de programmation orientée objet discutées en POOI.
-    (Ceci signifie que nous avons essayer de limiter le code à des concepts assez simple donc les   interruptions ne sont pas gérés notamment les ctrl+D.)
+    (Ceci signifie que nous avons essayé de limiter le code à des concepts assez simple donc les   interruptions ne sont pas gérés notamment les ctrl+D.)
  
  2 - Chaque programme est encapsulé dans des méthodes appropriées suivant un diagramme de classe établit.
 
