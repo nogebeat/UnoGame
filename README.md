@@ -49,27 +49,40 @@ Multilingue         : Choisissez la langue du jeu (Français ou Anglais) dès le
  ### Lancer le jeu
 
 Lorsque vous lancez le jeu, vous êtes invité à choisir la langue entre Français (2) et Anglais (1).
-    Ensuite, vous devez entrer les noms des joueurs (2 à 4 joueurs), séparés par des espaces.
-    Le jeu commence avec la distribution de 5 cartes à chaque joueur, et le joueur suivant est invité à jouer une carte ou à piocher. 
+    
+   Ensuite, vous devez entrer les noms des joueurs (2 à 4 joueurs), séparés par des espaces.
+    
+   Le jeu commence avec la distribution de 5 cartes à chaque joueur, et le joueur suivant est invité à jouer une carte ou à piocher. 
 
 ## Règles du jeu
 
 Le jeu commence avec une carte tirée au hasard sur le tapis.
-    À chaque tour, le joueur peut jouer une ou plusieurs cartes qui correspondent soit à la couleur soit à la valeur de la carte actuelle sur le tapis.
-    Si un joueur joue une carte spéciale, elle aura un effet sur le jeu :
-        Passer : Le joueur suivant passe son tour.
-        Inverser : Le sens du jeu est inversé.
-        +2 : Le joueur suivant doit piocher 2 cartes.
-        +4 : Le joueur suivant doit piocher 4 cartes et la couleur du jeu est choisie par le joueur ayant joué la carte.
-        Joker : Le joueur peut choisir la nouvelle couleur du jeu. 
-    Si un joueur oublie de dire "Uno" lorsqu'il n'a qu'une carte restante, il doit piocher 2 cartes supplémentaires.
-    Le premier joueur à se débarrasser de toutes ses cartes gagne la partie. 
+    
+   À chaque tour, le joueur peut jouer une ou plusieurs cartes qui correspondent soit à la couleur soit à la valeur de la carte actuelle sur le tapis.
+    
+   Si un joueur joue une carte spéciale, elle aura un effet sur le jeu :
+        
+   Passer : Le joueur suivant passe son tour.
+    
+   Inverser : Le sens du jeu est inversé.
+        
+   +2 : Le joueur suivant doit piocher 2 cartes.
+        
+  +4 : Le joueur suivant doit piocher 4 cartes et la couleur du jeu est choisie par le joueur ayant joué la carte.
+        
+   Joker : Le joueur peut choisir la nouvelle couleur du jeu. 
+    
+   Si un joueur oublie de dire "Uno" lorsqu'il n'a qu'une carte restante, il doit piocher 2 cartes supplémentaires.
+    
+   Le premier joueur à se débarrasser de toutes ses cartes gagne la partie. 
 
 ## Commandes
 
 Choisir une carte : Entrez le numéro de la carte que vous souhaitez jouer. Vous pouvez sélectionner plusieurs cartes à la fois en les séparant par des virgules.
-    Piocher une carte : Tapez 0 pour piocher une carte.
-    Dire "Uno" : Lorsque vous n'avez plus qu'une carte, tapez "Uno" pour éviter d'être pénalisé. 
+    
+   Piocher une carte : Tapez 0 pour piocher une carte.
+    
+   Dire "Uno" : Lorsque vous n'avez plus qu'une carte, tapez "Uno" pour éviter d'être pénalisé. 
 
 # # Exemple de déroulement d'une partie
 
