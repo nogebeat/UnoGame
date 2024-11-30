@@ -2,7 +2,7 @@
 
 ## Description
 
-    Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu propose une interface console et prend en charge plusieurs fonctionnalités de base du jeu Uno, telles que la gestion des cartes, des règles spéciales (comme les cartes +2, +4, Passer, Inverser, Joker), et l'interface en deux langues (Français et Anglais). Le but du jeu est d'être le premier joueur à se débarrasser de toutes ses cartes.
+Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu propose une interface console et prend en charge plusieurs fonctionnalités de base du jeu Uno, telles que la gestion des cartes, des règles spéciales (comme les cartes +2, +4, Passer, Inverser, Joker), et l'interface en deux langues (Français et Anglais). Le but du jeu est d'être le premier joueur à se débarrasser de toutes ses cartes.
 
 ## Pratiques de code
 
