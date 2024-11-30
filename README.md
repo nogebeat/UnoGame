@@ -8,6 +8,7 @@ Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu 
 
  1 - Le code se limite aux notions de programmation orientée objet discutées en POOI.
     (Ceci signifie que nous avez essayer de limiter le code à des concepts assez simple donc les   interruptions ne sont pas gérés notamment les ctrl+D.)
+ 
  2 - Chaque programme est encapsulé dans des méthodes appropriées suivant un diagramme de classe établit.
 
 ## Fonctionnalités
@@ -29,11 +30,15 @@ Multilingue         : Choisissez la langue du jeu (Français ou Anglais) dès le
 ## Installation
 
  1-Clonez ce repository ou téléchargez les fichiers du projet.
-    2-git clone git@github.com:marien272/UnoGameCsharp.git
-    3-Ouvrez le projet dans Visual Studio ou un éditeur compatible avec C#.
-    4- Exécutez le fichier 'ExecuteProg.py' (Le fichier permet d'installer
+    
+   2-git clone git@github.com:marien272/UnoGameCsharp.git
+   
+   3-Ouvrez le projet dans Visual Studio ou un éditeur compatible avec C#.
+    
+   4- Exécutez le fichier 'ExecuteProg.py' (Le fichier permet d'installer
         .NET SDK pour C# si ce n'est pas déja fait et de lancer le programme)
-    4(obtionnel)- Compilez et exécutez le projet plus facilement si vous voulez avec la commande.
+    
+   4(obtionnel)- Compilez et exécutez le projet plus facilement si vous voulez avec la commande.
         dotnet run
 
 
