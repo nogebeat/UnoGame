@@ -1,0 +1,79 @@
+Origin of the game
+    Created by Merle Robbins in the early seventies,
+    Uno is one of the most popular card games in the world.
+    It is played between 2 to 4 people and ages 7 and up.
+    The winner is the one who has no more cards in his hand.
+
+
+UNO CARDS
+    The Uno board game contains 108 cards.
+    These are divided into 4 color families (yellow, red, blue and green)
+    and are divided into two distinct categories: simple cards and special cards.
+
+    Simple cards:
+        Single cards are numbered from 0 to 9.
+        Each number comes in two copies of the same color,
+        except zero which only has one.
+
+    Special cards:
+        Special cards, also called action cards or symbol cards,
+        allow you to implement strategies by observing your opponents.
+        In the traditional version, there are five.
+
+    The “+2” card:
+        presents a double advantage.
+        It forces the next player to take 2 cards and pass their turn.
+        Note that it is possible to circumvent the action of this card by placing a “+2”,
+        of the same color or not, which will force the next person to draw more cards
+        (4 in total) and pass their turn.
+
+    The Joker or Joker Joker:
+        This card allows the person who places it to choose a new color
+        (red, green, yellow or blue).
+        To do this, the player must announce his choice by placing the card.
+
+    The “Super Joker” card or +4: It allows the player who plays it to choose the color
+        which will be played and forces the next player to take 4 cards.
+        Note that it is also possible to counter this card if the
+        next player has a +4 or +2 card.
+
+    The “Reversal of direction” card: It allows you to reverse the direction of the game
+
+    The “Pass your turn” card: Forces the next player not to play.
+        Note that this card can be countered
+        if the next player has a <<Pass your turn>> card
+
+
+Progress of the game
+    The order of play is defined according to the order in which the names of the players are registered.
+    Next, the deck of cards must be shuffled and each player is given 5 cards at the start.
+    part. Then, a first card is drawn from the cards and it serves as the first card of the game.
+    This is the first card on the stack. She can't give her a special card.
+    To play, the player who has his turn can only play a card having
+    the same number or the same color. 
+    For example, if the card on the playing pile is a red card which is a 3,
+    the player can place either a red card,
+    either a card with a 3 of any color
+    or the same symbol as the last card on the card pile (if it is a special card).
+    The player can also play several cards.
+    For example, if the card on the playing pile is a red card which is a 3,
+    the player can place a sequence of cards with the same number for example
+    green 3 + yellow 3 + blue 3 or place a card of the same color first
+    and then cards or a card with the same number as the placed card.
+    For example, red 4 + green 4 + yellow 4.
+    When a player cannot play, he must draw a card.
+    It should be noted that it is also possible not to play a playable card.
+    In this case, the player must draw a card.
+    Special cards can be countered.
+    In the case of +2 or +4 cards, if countered, the last player cannot counter
+    is obliged to take the sum of the cards + placed on the carpet.
+    It should also be noted that a player can choose not to counter.
+
+
+HOW TO WIN?
+    The game ends as soon as a player has no more cards in their hand.
+    But be careful as soon as there is a card left in the player's hand, the latter must say "Uno"
+    otherwise he is forced to take an extra card.
+
+
+Source: https://www.joueclub.fr/contenu/les-regles-officielles-du-uno.html
