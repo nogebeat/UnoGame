@@ -1,0 +1,15 @@
+C:\Users\Noge\Desktop\Marien\UnoGame\bin\Debug\net8.0\UnoGameCsharp.exe
+C:\Users\Noge\Desktop\Marien\UnoGame\bin\Debug\net8.0\UnoGameCsharp.deps.json
+C:\Users\Noge\Desktop\Marien\UnoGame\bin\Debug\net8.0\UnoGameCsharp.runtimeconfig.json
+C:\Users\Noge\Desktop\Marien\UnoGame\bin\Debug\net8.0\UnoGameCsharp.dll
+C:\Users\Noge\Desktop\Marien\UnoGame\bin\Debug\net8.0\UnoGameCsharp.pdb
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.AssemblyInfoInputs.cache
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.AssemblyInfo.cs
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.sourcelink.json
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.dll
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\refint\UnoGameCsharp.dll
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.pdb
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\UnoGameCsharp.genruntimeconfig.cache
+C:\Users\Noge\Desktop\Marien\UnoGame\obj\Debug\net8.0\ref\UnoGameCsharp.dll

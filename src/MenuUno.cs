@@ -16,7 +16,11 @@ public class Menu {
             Console.WriteLine("\n\n\t\t\t\tEnglish : Please choose a language (1: French, 2: English):");
             Console.Write("\n\n\t\t\t\tChoice | Choix : ");
 
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
+            if (input == null)
+            {
+                Console.WriteLine("Entrée invalide.");
+            }
 
             if (int.TryParse(input, out int language))
             {

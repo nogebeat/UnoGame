@@ -16,10 +16,17 @@ class Programme
             Console.WriteLine("Welcome to the Uno game!");
             Console.WriteLine("Enter the names of the players (2 to 4), separated by spaces:");
         }
-        string saisie = Console.ReadLine();
+        string? saisie = Console.ReadLine();
+        if (saisie == null)
+            {
+                Console.WriteLine("Entrée invalide.");
+            }
 
-        string[] nomsJoueurs = saisie.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
+        string[] nomsJoueurs = saisie!.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        if (nomsJoueurs.Length == 0)
+            {
+                Console.WriteLine("Entrée invalide.");
+            }
         bool continuer = true;
         while (continuer)
         {
@@ -32,8 +39,16 @@ class Programme
                     Console.WriteLine("Error : You must have between 2 and 4 players.");
                     Console.WriteLine("Please try again.");
                 }
-                string input = Console.ReadLine();
-                nomsJoueurs = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                string? input = Console.ReadLine();
+                if (input == null)
+                {
+                    Console.WriteLine("Entrée invalide.");
+                }
+                nomsJoueurs = input!.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                if (nomsJoueurs.Length == 0)
+                {
+                    Console.WriteLine("Entrée invalide.");
+                }
             }
             else
             {
@@ -117,7 +132,11 @@ class Programme
                 } else {
                     Console.WriteLine("Choose one or more cards to play (enter the numbers separated by commas) or type 0 to draw:");
                 }
-                string choix = Console.ReadLine();
+                string? choix = Console.ReadLine();
+                if (choix == null)
+                {
+                    Console.WriteLine("Entrée invalide.");
+                }
 
                 if (choix == "0")
                 {
@@ -144,7 +163,11 @@ class Programme
                 }
                 else
                 {
-                    string[] indicesChoisis = choix.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                    string[] indicesChoisis = choix!.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                    if (indicesChoisis.Length == 0)
+                    {
+                        Console.WriteLine("Entrée invalide.");
+                    }
                     List<CarteUno> cartesJouees = new List<CarteUno>();
                     bool choixValide = true;
 
@@ -219,7 +242,11 @@ class Programme
                                         Console.WriteLine("Do you want to play a 'Passer' card to counter? (Enter the number of the card or 0 to pass)");
                                     }
                                     
-                                    string choixContre = Console.ReadLine();
+                                    string? choixContre = Console.ReadLine();
+                                    if (choixContre == null)
+                                    {
+                                        Console.WriteLine("Entrée invalide.");
+                                    }
 
                                     if (int.TryParse(choixContre, out int indexContre) && indexContre > 0 && indexContre <= cartesPasser.Count)
                                     {
@@ -317,7 +344,11 @@ class Programme
                                     } else {
                                         Console.WriteLine("Do you want to play a card to counter? (Enter the number of the card or 0 to pass)");
                                     }
-                                    string choixContre = Console.ReadLine();
+                                    string? choixContre = Console.ReadLine();
+                                    if (choixContre == null)
+                                    {
+                                        Console.WriteLine("Entrée invalide.");
+                                    }
 
                                     if (int.TryParse(choixContre, out int indexContre) && indexContre > 0 && indexContre <= cartesSpecifiques.Count)
                                     {
@@ -399,6 +430,10 @@ class Programme
                 }
 
                 string? unoChoix = Console.ReadLine();
+                if (unoChoix == null)
+                {
+                    Console.WriteLine("Entrée invalide.");
+                }
                 if (unoChoix.ToLower() != "uno")
                 {
                     if (language == 2) {
