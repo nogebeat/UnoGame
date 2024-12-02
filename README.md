@@ -1,8 +1,22 @@
-# Jeu Uno - C#
+<p align="center">
+    <a href="https://creativecommons.org/licenses/by/4.0/">
+      <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"/>
+    </a>
+    <a href="https://github.com/marien272/UnoGameWithCsharp">
+      <img src="https://img.shields.io/github/stars/marien272/UnoGameWithCsharp?style=flat" alt="Stars">
+    </a>
+    <a href="https://github.com/marien272/UnoGameWithCsharp/issues">
+      <img src="https://img.shields.io/github/issues/marien272/UnoGameWithCsharp?style=flat" alt="Issues">
+    </a>
+    <a href="https://github.com/marien272/UnoGameWithCsharp/pulls">
+      <img src="https://img.shields.io/github/issues-pr/marien272/UnoGameWithCsharp?style=flat" alt="Pull Requests">
+    </a>
+    <a href="https://github.com/marien272/UnoGameWithCsharp">
+      <img src="https://img.shields.io/github/last-commit/marien272/UnoGameWithCsharp?style=flat" alt="Last Commit">
+    </a>
+</p>
 
-## Description
 
-Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu propose une interface console et prend en charge plusieurs fonctionnalités de base du jeu Uno, telles que la gestion des cartes, des règles spéciales (comme les cartes +2, +4, Passer, Inverser, Joker), et l'interface en deux langues (Français et Anglais). Le but du jeu est d'être le premier joueur à se débarrasser de toutes ses cartes.
 
 ## Pratiques de code
 
@@ -36,14 +50,12 @@ Multilingue         : Choisissez la langue du jeu (Français ou Anglais) dès le
     
    ```git clone git@github.com:marien272/UnoGameCsharp.git```
    
-   3-Ouvrez le projet dans Visual Studio ou un éditeur compatible avec C#.
-    
-   4- Exécutez le fichier 'ExecuteProg.py' (Le fichier permet d'installer
-        .NET SDK pour C# si ce n'est pas déja fait et de lancer le programme)
-    
-   4(obtionnel)- Compilez et exécutez le projet plus facilement si vous voulez avec la commande.
-        dotnet run
+ 2-Ouvrez le projet dans Visual Studio ou un éditeur compatible avec C#.
 
+
+    
+ 3- Exécutez le fichier 'ExecuteProg.py'
+   ``` python ExecuteProg.py ```
 
 ## Instructions
  ### Lancer le jeu
@@ -115,6 +127,7 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions, des correc
    Ce projet est sous licence **Creative Commons Attribution - Pas d'Utilisation Commerciale 4.0 International (CC BY-NC 4.0)**.
 
 Pour plus de détails, consultez le fichier [LICENSE](./LICENSE).
+<p align="center">✨ Merci de votre intérêt pour ce projet ! ✨</p>
 
 # Auteurs
 Etudiants du Campus de Rimouski (UQAR) en Baccalauréat en Informatique.
