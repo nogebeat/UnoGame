@@ -79,7 +79,7 @@ public class Menu {
 
                 if (choice == 1)
                 {
-                    string filePath = "RulesFilesFr.txt";
+                    string filePath = "./GUI/RulesFilesFr.txt";
 
                     try
                     {
@@ -98,7 +98,7 @@ public class Menu {
                 }
                 else if (choice == 3)
                 {
-                    string filePath = "TeamsMemberFr.txt";
+                    string filePath = "./GUI/TeamsMemberFr.txt";
 
                     try
                     {
@@ -150,7 +150,7 @@ public class Menu {
 
                 if (choice == 1)
                 {
-                    string filePath = "RulesFilesEn.txt";
+                    string filePath = "./GUI/RulesFilesEn.txt";
 
                     try
                     {
@@ -169,7 +169,7 @@ public class Menu {
                 }
                 else if (choice == 3)
                 {
-                    string filePath = "TeamsMemberEn.txt";
+                    string filePath = "./GUI/TeamsMemberEn.txt";
 
                     try
                     {

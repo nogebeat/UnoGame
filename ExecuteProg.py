@@ -76,9 +76,9 @@ def main():
             sys.exit(1)
 
     if sys.platform.startswith('win'):
-        script_path = './compilprogramme.bat'
+        script_path = '.\compile\compilprogramme.bat'
     else:
-        script_path = './compilprogramme.sh'
+        script_path = './compile/compilprogramme.sh'
 
     run_script(script_path)
 

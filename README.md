@@ -34,7 +34,7 @@ Multilingue         : Choisissez la langue du jeu (Français ou Anglais) dès le
 
  1-Clonez ce repository ou téléchargez les fichiers du projet.
     
-   2-git clone git@github.com:marien272/UnoGameCsharp.git
+   ```git clone git@github.com:marien272/UnoGameCsharp.git```
    
    3-Ouvrez le projet dans Visual Studio ou un éditeur compatible avec C#.
     
