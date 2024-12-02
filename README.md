@@ -1,20 +1,25 @@
 <p align="center">
-<h1 align="center">Jeu Uno - C#</h1>
-    <a href="https://creativecommons.org/licenses/by/4.0/">
-      <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"/>
-    </a>
-    <a href="https://github.com/marien272/UnoGameWithCsharp">
-      <img src="https://img.shields.io/github/stars/marien272/UnoGameWithCsharp?style=flat" alt="Stars">
-    </a>
-    <a href="https://github.com/marien272/UnoGameWithCsharp/issues">
-      <img src="https://img.shields.io/github/issues/marien272/UnoGameWithCsharp?style=flat" alt="Issues">
-    </a>
-    <a href="https://github.com/marien272/UnoGameWithCsharp/pulls">
-      <img src="https://img.shields.io/github/issues-pr/marien272/UnoGameWithCsharp?style=flat" alt="Pull Requests">
-    </a>
-    <a href="https://github.com/marien272/UnoGameWithCsharp">
-      <img src="https://img.shields.io/github/last-commit/marien272/UnoGameWithCsharp?style=flat" alt="Last Commit">
-    </a>
+  <br />
+   <h1 align="center">Jeu Uno - C#</h1>
+  <br />
+  <p align="center"> Ce projet implémente une version du jeu Uno en utilisant le langage C#. Le jeu propose une interface console et prend en charge plusieurs fonctionnalités de base du jeu Uno, telles que la gestion des cartes, des règles spéciales (comme les cartes +2, +4, Passer, Inverser, Joker), et l'interface en deux langues (Français et Anglais). Le but du jeu est d'être le premier joueur à se débarrasser de toutes ses cartes. <b>No root required.</b> <p> 
+      <p align="center">
+      <a href="https://creativecommons.org/licenses/by/4.0/">
+         <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"/>
+      </a>
+      <a href="https://github.com/marien272/UnoGameWithCsharp">
+         <img src="https://img.shields.io/github/stars/marien272/UnoGameWithCsharp?style=flat" alt="Stars">
+      </a>
+      <a href="https://github.com/marien272/UnoGameWithCsharp/issues">
+         <img src="https://img.shields.io/github/issues/marien272/UnoGameWithCsharp?style=flat" alt="Issues">
+      </a>
+      <a href="https://github.com/marien272/UnoGameWithCsharp/pulls">
+         <img src="https://img.shields.io/github/issues-pr/marien272/UnoGameWithCsharp?style=flat" alt="Pull Requests">
+      </a>
+      <a href="https://github.com/marien272/UnoGameWithCsharp">
+         <img src="https://img.shields.io/github/last-commit/marien272/UnoGameWithCsharp?style=flat" alt="Last Commit">
+      </a>
+   </p>
 </p>
 
 
