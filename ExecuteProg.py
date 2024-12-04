@@ -4,6 +4,9 @@
 import subprocess
 import sys
 import os
+import subprocess
+import urllib.request
+import tempfile
 
 def check_dotnet_installed():
     try:
@@ -18,9 +21,25 @@ def check_dotnet_installed():
 
 def install_dotnet_windows():
     """Installe .NET SDK sur Windows si nécessaire."""
-    print("C# n'est pas installé. Installation de .NET SDK sur Windows...")
-    url = "https://aka.ms/dotnet-sdk-installer"
-    subprocess.run(['start', url], shell=True)
+    print("Téléchargement de l'installateur .NET SDK...")
+    url = "https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.ps1"
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".ps1") as temp_script:
+        script_path = temp_script.name
+        urllib.request.urlretrieve(url, script_path)
+        print(f"Script téléchargé dans {script_path}")
+    print("Exécution de l'installateur .NET SDK...")
+    try:
+        subprocess.run(["powershell", "-ExecutionPolicy", "Bypass", "-File", script_path], check=True)
+        print("Installation terminée avec succès.")
+    except subprocess.CalledProcessError as e:
+        print(f"Erreur lors de l'installation de .NET SDK : {e}")
+        print("C# n'est pas installé. Installation de .NET SDK sur Windows...")
+        url = "https://aka.ms/dotnet-sdk-installer"
+        subprocess.run(['start', url], shell=True)
+    finally:
+        if os.path.exists(script_path):
+            os.remove(script_path)
+            print(f"Script temporaire supprimé : {script_path}")
 
 def install_dotnet_linux():
     """Installe .NET SDK sur Linux si nécessaire."""
